@@ -1,0 +1,84 @@
+.home {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to top, #03071b, #090c18);
+    display: flex;
+    align-items: flex-end;
+    border-bottom: 10px solid #000000;
+}
+
+.home .gradient {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.445), transparent 70%);
+}
+
+.home .home-container {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    gap: 0px;
+    overflow: hidden;
+}
+
+.home .home-container .text-home {
+    width: 35%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 2;
+}
+
+.home .home-container .text-home h2 {
+    color: white;
+    font-weight: 500;
+    font-size: 15pt;
+}
+
+.home .home-container .text-home h1 {
+    color: #2fc76f;
+    font-weight: 900;
+    font-size: 45pt;
+    margin: 10px 0px 10px 0px;
+}
+
+.home .home-container .text-home .btn {
+    width: 130px;
+    height: 50px;
+    margin: 40px 0px 0px 0px;
+    border: 1px solid rgba(0, 0, 0, 0.301);
+    background: linear-gradient(to top, #328f59,#2fc76f);
+
+    border-radius: 10px;
+    transition: .3s;
+}
+
+.home .home-container .text-home .btn a {
+    color: rgb(255, 255, 255);
+}
+
+.home .home-container .text-home .btn:hover {
+    width: 130px;
+    height: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.301);
+    background: linear-gradient(to top, #2ca35e, #40e284);
+    box-shadow: 0px 0px 10px 0px #2fc76f;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.home .home-container .img {
+    width: 40%;
+    height: 100%;
+}
+
+.home .home-container .img .home-img {
+    height: 110%;
+    position: absolute;
+    right: 90px;
+    bottom: 0px;
+}

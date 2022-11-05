@@ -1,0 +1,132 @@
+.about {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to top, #03071b, #090c18);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about .about-img {
+    width: auto;
+}
+.about .about-img img {
+    width: 300px;
+    margin: 0px 50px;
+}
+
+.about .about-text {
+    width: 40%;
+    color: white;
+}
+
+.about .about-text h3 {
+    font-weight: 100;
+    font-size: 15pt;
+}
+
+.about .about-text h2 {
+    font-weight: 700;
+    font-size: 20pt;
+}
+
+.about .about-text .line {
+    width: 50%;
+    height: 3px;
+    background: linear-gradient(to right, #2fc76f 60%, rgba(255, 255, 255, 0) 100%);
+    margin: 10px 0px 20px;
+}
+
+.about .about-text .info-container {
+    width: 90%;
+    margin: 10px 0px;
+    padding: 20px 20px;
+    border: 2px solid #2fc76f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about .about-text .info-container button {
+    width: 30%;
+    height: 50px;
+    background: #2fc76f ;
+    color: white;
+    transition: .3s;
+}
+
+.about .about-text .info-container button:hover {
+    width: 30%;
+    height: 50px;
+    background: white ;
+    color: #2fc76f;
+    border-radius: 30px;
+}
+
+.about .about-img .about-elements {
+    width: 300px;
+    height: 300px;
+    margin: 0px 50px;
+    background-image: '';
+    animation: frames 15s infinite;
+    background-size: contain;
+}
+
+@keyframes frames {
+
+    0% {
+        background-image: url('../sources/img/DOM.png');
+    }
+
+    10% {
+        background-image: url('../sources/img/DOM.png');
+    }
+
+    14% {
+        background-image: url('../sources/img/JS.png');
+    }
+
+    24% {
+        background-image: url('../sources/img/JS.png');
+    }
+
+    28% {
+        background-image: url('../sources/img/CSS.png');
+    }
+    38% {
+        background-image: url('../sources/img/CSS.png');
+    }
+
+    42% {
+        background-image: url('../sources/img/HTML.png');
+    }
+    52% {
+        background-image: url('../sources/img/HTML.png');
+    }
+
+    56% {
+        background-image: url('../sources/img/NODE.png');
+    }
+    66% {
+        background-image: url('../sources/img/NODE.png');
+    }
+
+    70% {
+        background-image: url('../sources/img/REACT.png');
+    }
+    80% {
+        background-image: url('../sources/img/REACT.png');
+    }
+
+    84% {
+        background-image: url('../sources/img/SQL.png');
+    }
+    
+    94% {
+        background-image: url('../sources/img/SQL.png');
+    }
+
+    100% {
+        background-image: url('../sources/img/DOM.png');
+    }
+
+}

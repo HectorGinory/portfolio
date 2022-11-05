@@ -1,0 +1,8 @@
+.contact {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to top, #03071b, #090c18);
+    display: flex;
+    align-items: flex-end;
+    border-bottom: 10px solid #000000;
+}

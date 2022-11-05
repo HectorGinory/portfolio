@@ -1,0 +1,126 @@
+a {
+    text-decoration: none;
+}
+.menu {
+        width: 100%;
+        height: 90px;
+        background: rgba(0, 0, 0, 0.671);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        z-index: 100;
+        backdrop-filter: blur(10px);
+    }
+    
+.menu .menu-container {
+        width: 100%;
+        height: 80px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+    }
+.menu .menu-container .right-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 350px;
+    }
+.menu .menu-container .right-container button {
+        text-decoration: none;
+        background-color: transparent;
+        border: 0px solid;
+    }
+    
+.menu .menu-container .right-container button h2 {
+        color: #2fc76f;
+        font-weight: 500;
+        font-size: 25pt;
+        transition: .2s;
+        letter-spacing: 4px;
+    }
+    
+.menu .menu-container .right-container button h2:hover {
+        color: white;
+        letter-spacing: 6px;
+        text-shadow: 0px 0px 10px white;
+    }
+    
+.menu .menu-container .left-container {
+        width: auto;
+        margin: 0px 20px 0px 0px;
+    }
+    
+.menu .menu-container .left-container ul {
+        display: flex;
+        list-style: none;
+        align-items: center;
+    }
+    
+.menu .menu-container .left-container ul li {
+        width: 120px;
+        margin: 0px 5px;
+        height: 80px;    
+        display: flex;
+        list-style: none;
+        align-items: center;
+    }
+    
+.menu .menu-container .left-container ul li .btn_menu {
+        width: 100%;
+        background-color: transparent;
+        border: transparent;
+        font-size: 11pt;
+        font-weight: 400;
+        transition: .2s;
+        border-bottom: 0px solid transparent;
+    }
+
+    .menu .menu-container .left-container ul li .btn_menu a {
+        color: #108023;
+        transition: .2s;
+    }
+    
+
+.menu .menu-container .left-container ul li .active a  {
+        width: 100%;
+        color: #4dff73;
+        background-color: transparent;
+        border: transparent;
+        font-size: 11pt;
+        font-weight: 400;
+        transition: .2s;
+        border-bottom: 0px solid transparent;
+        transition: .3s;
+    }
+    
+.menu .menu-container .left-container ul li .btn_menu:hover a{
+        color: #ffffff;
+    }
+    
+.menu .menu-container .left-container ul .contact-btn {
+        background-color: #2fc76f;
+        width: 120px;
+        border-radius: 20px;
+        color: white;
+        height: 40px;
+        transition: .3s;
+    }
+
+    .menu .menu-container .left-container ul .contact-btn a {
+        color: white;
+    }
+    
+.menu .menu-container .left-container ul .contact-btn:hover {
+        background-color: #ffffff;
+        width: 120px;
+        box-shadow: 0px 0px 0px 3px white;
+        height: 40px;
+    }
+
+    .menu .menu-container .left-container ul .contact-btn:hover a {
+        color: #2fc76f;
+    }

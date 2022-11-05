@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Héctor Ginory - Fullstack</title>
+    <link rel="stylesheet" href="./index.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="menu">
+        <div class="menu-container">
+            <div class="right-container">
+                <button class="btn_menu" data-url="contact"><a href="#contact"><h2>Héctor Ginory</h2></a></button>
+            </div>
+            <div class="left-container">
+                <ul>
+                    <li>
+                        <button href="#home" class="btn_menu" data-url="home">
+                            <a href="#home">Home</a>
+                        </button>
+                    </li>
+                    <li>
+                        <button href="#about" class="btn_menu" data-url="about">
+                            <a href="#about">About</a>
+                        </button>
+                    </li>
+                    <li>
+                        <button href="#services" class="btn_menu" data-url="services">
+                            <a href="#services">Services</a>
+                        </button>
+                    </li>
+                    <li>
+                        <button href="#portfolio" class="btn_menu" data-url="portfolio">
+                            <a href="#portfolio">Portfolio</a>
+                        </button>
+                    </li>
+
+                    <li data-url="contact">
+                        <button class="contact-btn">
+                            <a href="#contact">Contact Me</a>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="home section" id="home">
+        <div class="home-container">
+            <div class="text-home" data-aos="fade-right" data-aos-duration="500" data-aos-offset="500">
+                <h2>Hi there! I´m</h2>
+                <h1>Héctor Ginory</h1>
+                <h2>A Creative Freelancer & Full Stack Developer</h2>
+                <button class="btn"><a href="#contact">CONTACT ME</a></button>
+            </div>
+            <div class="img">
+                <div class="gradient"></div>
+                <img src="./sources/img/hector_ginory_main.png" alt="Foto de Hector Ginory" class="home-img" data-aos="fade-left" data-aos-duration="6000" data-aos-offset="300">
+            </div>
+            
+            <div class="gradient"></div>
+        </div>
+
+    </header>
+    <main>
+        <section class="about section" id="about">
+            <div class="about-img" data-aos="fade-up" data-aos-duration="6000" data-aos-offset="300">
+                <img src="./sources/img/about-img.jpg">
+            </div>
+            <div class="about-text" data-aos="fade-down" data-aos-duration="4000" data-aos-offset="300">
+                <h3>Discover</h3>
+                <h2>About Me</h2>
+                <div class="line"></div>
+                <span>
+                    My name is Héctor Ginory I´m a Full Stack Developer based in Madrid, Spain.
+                    I´m very passionate and dedicated to my work. I`ve been studying as a Full Stack
+                    Developer, to acquired the skills to build interactive and premium websites.
+                </span>
+                <div class="info-container">
+                    <div class="about-info">
+                        <p><b>Name:</b> Héctor Ginory</p>
+                        <p><b>Age:</b> 22</p>
+                        <p><b>Placed:</b> Madrid, Spain</p>
+                        <p><b>Freelance:</b> Aviable</p>
+                    </div>
+                    <button>DOWNLOAD CV</button>
+                </div>
+            </div>
+            <div class="about-img " data-aos="fade-up" data-aos-duration="4000" data-aos-offset="300">
+                <div class="about-elements">
+                </div>
+            </div>
+
+        </section>
+        <section class="services sertion" id="services"></section>
+        <section class="portfolio sertion" id="portfolio"></section>
+        <section class="contact sertion" id="contact"></section>
+    </main>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./scripts/menu.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
