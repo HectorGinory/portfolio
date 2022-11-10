@@ -13,6 +13,7 @@
     position: absolute;
     z-index: 1;
     background: linear-gradient(to top, rgba(0, 0, 0, 0.445), transparent 70%);
+    bottom: -1px;
 }
 
 .home .home-container {
@@ -35,8 +36,8 @@
 
 .home .home-container .text-home h2 {
     color: white;
-    font-weight: 500;
-    font-size: 15pt;
+    font-weight: 700;
+    font-size: 20pt;
 }
 
 .home .home-container .text-home h1 {
@@ -75,6 +76,8 @@
     width: 40%;
     height: 100%;
 }
+
+
 
 .home .home-container .img .home-img {
     height: 110%;

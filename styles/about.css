@@ -44,6 +44,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background: #c3f8de4b
 }
 
 .about .about-text .info-container button {
@@ -52,6 +53,8 @@
     background: #2fc76f ;
     color: white;
     transition: .3s;
+    border: 0px solid;
+
 }
 
 .about .about-text .info-container button:hover {

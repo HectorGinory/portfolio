@@ -3,6 +3,78 @@
     height: 100vh;
     background: linear-gradient(to top, #03071b, #090c18);
     display: flex;
-    align-items: flex-end;
+    justify-content: center;
+    align-items: center;
     border-bottom: 10px solid #000000;
+    flex-direction: column;
+}
+
+.portfolio  h2 {
+    margin: 80px 0px 0px 0px;
+    color: white;
+    font-weight: 700;
+    font-size: 20pt;
+}
+
+.portfolio h3 {
+    color: white;
+    font-weight: 100;
+    font-size: 15pt;
+    margin: 0px 0px 10px;
+}
+
+.portfolio h5 {
+    color: rgba(255, 255, 255, 0.616);
+    letter-spacing: 2px;
+    font-weight: 100;
+    font-size: 15pt;
+    margin: 30px 0px 10px;
+    transition: .3s;
+}
+
+.portfolio h5:hover {
+    color: rgba(255, 255, 255, 0.952);
+    letter-spacing: 2px;
+    font-weight: 100;
+    font-size: 15pt;
+    margin: 30px 0px 10px;
+    transition: .3s;
+}
+
+.portfolio .line {
+    width: 50%;
+    height: 3px;
+    background: linear-gradient(to right,rgba(255, 255, 255, 0) 0%, #2fc76f 40%, #42df83 50%, #2fc76f 60%, rgba(255, 255, 255, 0) 100%);
+}
+
+.portfolio .portfolio-container {
+    width: 90%;
+    height: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #2fc76e00 0%, #c3f8de1e 30%,  #c3f8de52 50%, #c3f8de27 70%, #2fc76e00 100%);
+}
+
+.portfolio .portfolio-container .projects {
+    width: 200px;
+    height: 110px;
+    margin: 10px;
+    background-color: #42df832c;
+    border: 2px solid #2fc76f;
+    display: inline-block;
+    transition: .3s;
+    border-radius: 10px;
+}
+
+.portfolio .portfolio-container .projects:hover {
+    width: 240px;
+    height: 132px;
+    margin: 10px;
+    background-color: #42df832c;
+    border: 2px solid #2fc76f;
+    display: inline-block;
+    border-radius: 5px;
 }
